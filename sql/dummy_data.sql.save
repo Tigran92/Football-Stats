@@ -1,0 +1,25 @@
+
+INSERT INTO ground (ground_name, ground_address, ground_capacity)
+VALUES
+('Santiago Bernabeu', 'Av. de Concha Espina, 1, 28036 Madrid, Spain', 81000),
+('Emirates Stadium', 'Hornsey Rd, London N7 7AJ', 60432),
+('Olympic Stadium', 'Queen Elizabeth Olympic Park, London E20 2ST', 80000);
+
+INSERT INTO team (team_name, team_manager, team_contact_number, ground_id)
+VALUES
+('Real Madrid', 'Zinedine Zidane', 34902321809, 1),
+('Arsenal', 'Arsene Wenger', 02076195003, 2),
+('West Ham Utd', 'Slaven Bilic', 08715291966, 3);
+
+INSERT INTO player (player_name, player_nationality)
+VALUES
+('Keylor Navas', 'Costa Rica'),
+('Petr Cech', 'Czech Republic'),
+('Adrián', 'Spain');
+
+INSERT INTO manager (manager_name, manager_nationality)
+VALUES
+('Zinedine Zidane', 'France'),
+('Arsene Wenger', 'France'),
+('Slaven Bilic', 'Croatia');
+
